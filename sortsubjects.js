@@ -1,6 +1,6 @@
 function CompareSubjects(s, t) {
     /*
-    Returns true if s is alphabetically "less than / before" t. Returns false otherwise.
+    Returns true if the score of Subject s is "less than" t. Returns false otherwise.
     */
     for (let i = 0 ; i < s.length && i < t.length ; i++) {
         if (i < s.length && i < t.length) {
