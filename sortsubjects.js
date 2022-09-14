@@ -20,6 +20,9 @@ function CompareSubjects(s, t) {
 }
 
 function SortArrayOfSubjects(arr) {
+    /*
+    Sorts an array of object based on their scores
+    */
     for (i = 0 ; i < arr.length ; i++) {
         for (j = i+1 ; j < arr.length ; j++) {
             if (CompareStrings(arr[i], arr[j])) {
