@@ -20,6 +20,17 @@ function CompareSubjects(s, t) {
 }
 
 function SortArrayOfSubjects(arr) {
-
+    for (i = 0 ; i < arr.length ; i++) {
+        for (j = i+1 ; j < arr.length ; j++) {
+            if (CompareStrings(arr[i], arr[j])) {
+                //swap the objects in the array
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+            else {
+            }
+        }
+    }
 }
 
